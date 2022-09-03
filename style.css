@@ -1,0 +1,145 @@
+/*-----------------
+       Fonts
+------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav, section{
+    background: #FFFFFF;
+}
+
+/*-----------------
+       Nav
+------------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 87px;
+    
+}
+
+.nav-info , a, h2{
+    display: flex;
+    gap: 34px;
+    font-weight: 600; 
+    color: #3A3A3A; 
+    text-decoration: none;
+}
+
+/*-----------------
+    Hero Section
+------------------*/
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+    align-items: center;
+    color: #3A3A3A;
+}
+
+
+.hero-title h1{
+    font-weight: 700;
+    font-size: 52px;
+}
+button{
+    background: #E02C6D;
+    margin-top: 16px;
+    padding: 10px 24px;
+    border-radius: 41px;
+    color: #FFFFFF;
+    border: none;
+}
+.hero-img{
+    width: 440px;
+    height: 414px; 
+    padding-left: 160px;
+   
+}
+
+/*-----------------
+ Resellers Section
+------------------*/
+
+.resellers{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 165px;
+}
+
+/*-----------------
+  Popular Product 
+------------------*/
+h1{
+    color: #3A3A3A;
+}
+h3{
+    color: rgba(0, 0, 0, 0.87);
+}
+p{
+    color: #787885;
+}
+
+.popular-title{
+   text-align: center;
+   margin-bottom: 30px;
+}
+.popular-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 196px;
+    margin-right: 196px;
+    
+}
+.popular-item{
+    padding: 30px 30px;
+    
+    
+}
+
+.fa-star.filled, .fa-star-half-stroke{
+    color: #FFC014;
+    
+}
+.see-more{
+    float: right;
+    margin-right: 96px;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+    gap: 4px;
+}
+
+/*-----------------
+  Featured Product 
+------------------*/
+
+.featured-product{
+    align-items: center;
+    margin: 100px 165px;
+    display: flex;
+    gap: 96px;
+}
+
+/*-----------------
+       Footer 
+------------------*/
+
+.foot{
+    background: #0A0826;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.footer-info p,h1{
+    color: #FFFFFF;
+}
+i{
+    background-color: white;
+}
+
